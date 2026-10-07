@@ -23,6 +23,8 @@ Also you need to add a few more packages into src
 3. mstrp explore https://github.com/mertgulerx/mrtsp_exploration_ros2
 4. SLAM Toolkit
 5. NAV2
-6. 
+6. A few more packages i will add later.
+
+The rest of the stuff you can find the names in the launch files as i didn't put all the packages we used.
 
 after adding them all, place in the ws and build using colcon.
