@@ -1,5 +1,5 @@
 # final_robot_ws
-The final iteration i made of my robot in the end of the school year.
+The final iteration of the robot our team made at the end of the school year.
 
 Authors: Gilad Berkove, Evyatar Muchnik, Reuven Lamberg.
 
