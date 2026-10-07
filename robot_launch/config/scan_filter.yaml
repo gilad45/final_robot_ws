@@ -1,0 +1,17 @@
+scan_to_scan_filter_chain:
+  ros__parameters:
+    # Try the flat dot-notation here
+    diagnostic_updater.hw_id: "LD19_lidar"
+
+    scan_filter_chain:
+      filter1:
+        name: range
+        type: laser_filters/LaserScanRangeFilter
+        params:
+          lower_threshold: 0.05
+          upper_threshold: 8.0
+      filter2:
+        name: median
+        type: laser_filters/LaserMedianFilter
+        params:
+          window_size: 5
